@@ -8,8 +8,8 @@ namespace Shopify;
 
 trait CommonReadList
 {
-    public function readList(array $options = [])
+    public function readList(array $options = [], $prefix = '')
     {
-        return $this->getList($options);
+        return $this->getList($options, $prefix);
     }
 }

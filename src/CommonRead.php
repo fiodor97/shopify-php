@@ -8,8 +8,8 @@ namespace Shopify;
 
 trait CommonRead
 {
-    public function read($id)
+    public function read($id, $prefix = '')
     {
-        return $this->get($id);
+        return $this->get($id, $prefix);
     }
 }

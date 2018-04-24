@@ -20,7 +20,9 @@ class ShopifyClient
         "product",
         "shop",
         "variant",
-        "collection"
+        "collection",
+        "theme",
+        "image"
     ];
 
     public function __construct($accessToken, $shopName)
