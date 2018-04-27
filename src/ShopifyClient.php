@@ -22,7 +22,8 @@ class ShopifyClient
         "variant",
         "collection",
         "theme",
-        "image"
+        "image",
+        "customer"
     ];
 
     public function __construct($accessToken, $shopName)
