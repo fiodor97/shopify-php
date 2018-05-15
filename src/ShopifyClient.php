@@ -23,7 +23,8 @@ class ShopifyClient
         "collection",
         "theme",
         "image",
-        "customer"
+        "customer",
+        "storefront_access_token"
     ];
 
     public function __construct($accessToken, $shopName)
